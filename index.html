@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Product Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">PM.Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-content">
+            <span class="subtitle">Product Manager & Strategist</span>
+            <h1 id="hero-name">Name</h1>
+            <p id="hero-tagline">Tagline goes here.</p>
+            <div class="hero-btns">
+                <a href="#experience" class="btn btn-primary">View Experience</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-bg-element"></div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p id="about-desc">Description</p>
+                    <div class="skills-container" id="skills-list">
+                        <!-- Skills injected here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline" id="experience-list">
+                <!-- Experience items injected here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Key Projects</h2>
+            <div class="projects-grid" id="projects-list">
+                <!-- Projects injected here -->
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h3>Let's Connect</h3>
+                <p>새로운 기회와 협업에 대해 언제든 열려있습니다.</p>
+                <div class="social-links" id="social-links">
+                    <!-- Social links injected here -->
+                </div>
+                <p class="copyright">© 2025 Portfolio. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
